@@ -7,7 +7,7 @@ from aiogram import Bot, Dispatcher, types, F
 from aiogram.types import FSInputFile
 
 # --- НАСТРОЙКИ ---
-TOKEN = "ВАШ_ТОКЕН_ТЕЛЕГРАМ_БОТА"
+TOKEN = "8446317844:AAHdOR7qSzVpp-NwQr35LGAf01TjZFAjixc"
 DB_FILE = "database.json"
 ESCAPE_CHANCE = 15  # Шанс побега лисика (%)
 MAX_TRANSFER = 20000  # Макс. сумма перевода
@@ -252,4 +252,5 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
+
     asyncio.run(main())
