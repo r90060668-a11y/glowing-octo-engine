@@ -8,7 +8,7 @@ from aiogram import Bot, Dispatcher, types, F
 from aiogram.types import FSInputFile
 
 # --- НАСТРОЙКИ ---
-TOKEN = "8224326431:AAFMXZyRPrXXtTV04Y979w61EkvvUb0iYC0"
+TOKEN = "8224326431:AAEINuwvWCK8OEuuGnxo3EOKGruUfnOkbsA"
 DB_FILE = "database.json"
 ESCAPE_CHANCE = 15
 MAX_TRANSFER = 20000
@@ -160,3 +160,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
